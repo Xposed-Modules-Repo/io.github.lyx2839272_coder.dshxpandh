@@ -1,8 +1,10 @@
-# xhook
+# DSHxpandh
 
-**A lightweight LSPosed module for runtime Java hooking on Android — see encrypted traffic, override return values, rewrite arguments.**
+**DSHxpandh — a lightweight LSPosed module for runtime Java hooking on Android — see encrypted traffic, override return values, rewrite arguments.**
 
 轻量 LSPosed 模块：在任意 App 进程内 hook Java 方法，看明文、改返回值、改入参。
+
+包名 `io.github.lyx2839272_coder.dshxpandh`｜命令行脚本仍叫 `xhook.sh`（沿用旧名，未改动）
 
 ## What it does / 能做什么
 
@@ -37,12 +39,12 @@
 > **③ 用脚本（需要 root）** —— 把配置写进 App 私有目录，任何 App 都能改。
 ```bash
 # 1. 装模块（或用 xhook-install.sh 自解包）
-pm install -r xhook-v27.apk
+pm install -r xhook-v30.apk
 ```
 
 ```
 # 2. LSPosed 里启用
-模块列表 → DSH Module → 打开开关 → 勾作用域 → 退出页面（不退出不保存）
+模块列表 → DSHxpandh → 打开开关 → 勾作用域 → 退出页面（不退出不保存）
 
 # 3. 重启目标 App（不是重启手机）
 ```
