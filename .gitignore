@@ -1,0 +1,7 @@
+*.zip
+module/classes/
+module/dexout/
+module/mod.apk
+module/mod_signed.apk
+# module/debug.ks is committed on purpose (public debug key, keeps upgrade signatures stable)
+tmp/

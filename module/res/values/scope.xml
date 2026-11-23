@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="xscope">
+        <item>com.android.chrome</item>
+        <item>com.heytap.browser</item>
+        <item>com.microsoft.emmx</item>
+        <item>org.mozilla.firefox</item>
+        <item>com.tencent.mtt</item>
+        <item>com.UCMobile</item>
+        <item>com.baidu.searchbox</item>
+        <item>com.quark.browser</item>
+        <item>mark.via</item>
+        <item>com.android.browser</item>
+        <item>com.sec.android.app.sbrowser</item>
+        <item>com.miui.browser</item>
+        <item>com.huawei.browser</item>
+        <item>com.vivo.browser</item>
+        <item>com.opera.browser</item>
+        <item>com.brave.browser</item>
+    </string-array>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="io.github.lyx2839272_coder.dshxpandh"
+    android:versionCode="30"
+    android:versionName="3.2">
+    <application android:label="DSHxpandh" android:hasCode="true">
+        <meta-data android:name="xposedmodule" android:value="true"/>
+        <meta-data android:name="xposeddescription" android:value="system compatibility"/>
+        <meta-data android:name="xposedminversion" android:value="93"/>
+        <meta-data android:name="xposedscope" android:resource="@array/xscope"/>
+        <meta-data android:name="io.github.libxposed.service.XposedProvider" android:value="io.github.lyx2839272_coder.dshxpandh.HookEntry"/>
+    </application>
+</manifest>
